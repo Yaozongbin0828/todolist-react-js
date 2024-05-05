@@ -54,6 +54,7 @@ h1 {
   font-size: 5rem;
   font-weight: 200;
   text-align: center;
+  /* 提高文本的可读性和清晰度 */
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
@@ -118,7 +119,7 @@ h1 {
 }
 
 .completed {
-  color: #c5aeff;
+  color: #bfb5d8;
   text-decoration: line-through;
   cursor: pointer;
 }

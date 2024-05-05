@@ -4,6 +4,7 @@ export const EditTodoForm = ({ editTodo, task }) => {
   const [value, setValue] = useState(task.task);
 
   const handleSubmit = (e) => {
+    // preventDefault() 阻止表单的默认提交行为
     e.preventDefault();
     editTodo(value, task.id);
   };
@@ -15,9 +16,11 @@ export const EditTodoForm = ({ editTodo, task }) => {
         value={value}
         onChange={(e) => setValue(e.target.value)}
         className="todo-input"
-        placeholder="Update Task"
+        placeholder="Update Your Task"
       />
-      <button type="submit" className="todo-btn">Edit Task</button>
+      <button type="submit" className="todo-btn">
+        Edit Task
+      </button>
     </form>
   );
 };
