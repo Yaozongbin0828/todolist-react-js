@@ -24,7 +24,8 @@ input {
 
 footer {
   color: #a1a4ab;
-  margin: 20px 0;
+  position: relative;
+  bottom: -18px;
 }
 
 footer a {
