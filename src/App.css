@@ -18,8 +18,13 @@ body {
   min-width: 230px;
 }
 
+input {
+  -webkit-text-size-adjust: 100% !important;
+}
+
 footer {
   color: #a1a4ab;
+  margin: 20px 0;
 }
 
 footer a {
